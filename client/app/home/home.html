@@ -1,0 +1,14 @@
+<div>This is the home view.</div>
+
+
+  <div >
+    <div class="row message-container" ng-repeat="message in $ctrl.listaAnimales">
+      <div class="message">
+        <div class="message-images col-sm-5">
+          <div class="message-text col-sm-7">{{message.tipo}}</div>
+          <div class="message-text col-sm-7">{{message.observacion}}</div>
+        </div>
+        <div class="message-text col-sm-7">{{message.ubicacion}}</div>
+      </div>
+   </div>
+  </div>

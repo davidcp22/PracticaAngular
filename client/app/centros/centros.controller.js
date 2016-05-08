@@ -1,16 +1,20 @@
 'use strict';
 (function(){
 
-class CentrosComponent {
-  constructor() {
-    this.message = 'Hello';
+class CentrosController {
+  constructor($http, DetailAnimal) {
   }
+  
+  
+  
+  
+  
 }
 
 angular.module('y')
   .component('centros', {
     templateUrl: 'app/centros/centros.html',
-    controller: CentrosComponent
+    controller: CentrosController
   });
 
 })();

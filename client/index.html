@@ -13,6 +13,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(client) app/vendor.css -->
       <!-- bower:css -->
+        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css">
       <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css({.tmp,client}) app/app.css -->
@@ -28,6 +29,40 @@
 
     <!-- Add your site or application content here -->
     <navbar></navbar>
+
+    <div class= "row">
+      <div class="col-md-3">
+
+        <div class="row seccion-logo">
+          <div class="logo-app col-md-12">
+            <img src="#">
+          </div>
+        </div>
+
+       <div class="col-md-9">
+        <div class="row seccion-menu">
+          <nav class="menu">
+            <ul class="menu-lateral">
+              <li class="item-menu">
+                <div><img src="#"></div><a>Anaimlaes</a>
+              </li>
+              <li class="item-menu">
+                <div><img src="#"></div><a>Centros de ayuda</a>
+              </li>
+              <li class="item-menu">
+                <div><img src="#"></div><a>Tips de Animales</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+     </div>
+
+
+    </div>
+
+
     <div ui-view=""></div>
     <footer></footer>
 
@@ -48,6 +83,9 @@
     <![endif]-->
     <!-- build:js({client,node_modules}) app/vendor.js -->
       <!-- bower:js -->
+
+      <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+      <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
       <!-- endbower -->
     <!-- endbuild -->
     <!-- build:js(.tmp) app/app.js -->

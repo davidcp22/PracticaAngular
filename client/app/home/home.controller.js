@@ -7,6 +7,7 @@ class HomeComponent {
     this.$http = $http;
     this.homeservice = homeService;
     this.listaAnimales =[];
+    this.InfoDetalleAnimal=[];
   }
 
   $onInit() {
@@ -15,6 +16,13 @@ class HomeComponent {
     console.log("desde Ctrl", this.messages);
   });
   }
+
+    InfoDetalleAnimal  = this.homeservice.getDetalleAnimal(idAnimal);
+      
+  
+
+  
+  
 }
 
 angular.module('helpetApp')
